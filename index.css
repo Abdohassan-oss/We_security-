@@ -1,0 +1,66 @@
+/* Custom Navbar Styles */
+.navbar {
+    background-color: #1a1a1a; /* Dark background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff; /* White text */
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+    color: #c5b7b7; /* Toggle icon color */
+}
+
+.navbar-toggler {
+    border-color: #ffffff; /* Toggle border color */
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ffffff; /* Toggle background color on hover/focus */
+    color: #1a1a1a; /* Toggle text color on hover/focus */
+}
+
+/* Header Section */
+header {
+    height: 100vh; /* Full viewport height */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/3d-internet-secuirty-badge.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #ffffff; /* White text */
+    text-align: center;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Sections */
+section {
+    padding: 80px 0; /* Vertical padding for sections */
+    background-color: #34495e; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+section h5 {
+    letter-spacing: 5px; /* Increased letter spacing */
+}
+
+section .card {
+    margin-bottom: 30px; /* Space between cards */
+    background-color: #2c3e50; /* Darker card background */
+}
+
+/* Specific Sections */
+#testimonial .card {
+    background-color: #80a9d3; /* Lighter blue card background */
+}
